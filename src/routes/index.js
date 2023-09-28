@@ -6,7 +6,6 @@ import Signup from "./../components/Signup.vue"
 import Login from "./../components/Login.vue"
 
 
-Vue.use(VueRouter)
 
 const routes =[
     {

@@ -4,11 +4,12 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 import router from  './routes'
-//vuetify
-import `vuetify/styles`
-import {createVuetify} from `vuetify`
-import * as components from `vuetify/components`
-import * as directives from `vuetify/directives`
+//Vuetify
+
+import 'vuetify/styles'
+import {createVuetify} from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
 //Icons
 import {aliases, mdi} from "vuetify/lib/iconsets/mdi";
