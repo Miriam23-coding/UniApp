@@ -4,6 +4,7 @@ import LandingPage from "./../components/LandingPage.vue"
 import About from "./../components/About.vue"
 import Signup from "./../components/Signup.vue"
 import Login from "./../components/Login.vue"
+import Register from "./../components/Register.vue"
 
 
 
@@ -27,6 +28,11 @@ const routes =[
         path: '/Login',
         name: 'Login',
         component: Login,
+    },
+    { 
+        path: '/Register',
+        name: 'Register',
+        component: Register,
     }
 ]
 const router = createRouter({
