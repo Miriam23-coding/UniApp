@@ -1,14 +1,13 @@
-<script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    
 
-</script>
-
-<template>
-    <div id = 'LandingPage'>
-        <h1> Welcome to UniApp</h1>
-        <body>
-            <img>
-    <img src="https://img.freepik.com/free-vector/blue-background-with-binary-numbers_1055-1918.jpg?size=626&ext=jpg&ga=GA1.1.1167790395.1695039769&semt=ais">
-</body>
 
     <div class="main">
         <div class="navbar">
@@ -47,7 +46,7 @@
                     <button class="btnn"><a href="#">Login</a></button>
 
                     <p class="link">Don't have an account<br>
-                    <a href="#">Sign up here </a> </p>
+                    <a href="#">Sign up </a> here</a></p>
                     <p class="liw">Log in with</p>
 
                     <div class="icons">
@@ -62,16 +61,8 @@
                     </div>
                 </div>
         </div>
+    </div>
+    <img src= "group-five-african-college-students-spending-time-together-campus-university-yard-black-afro-friends-studying-education-theme.jpg" alt="students spending time together"width="300" height="200">
     
-    
-
-
-
-       
-
-
-
-       
-         
-     
-</template>
+</body>
+</html>
