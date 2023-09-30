@@ -1,3 +1,5 @@
+<template>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +48,7 @@
                     <button class="btnn"><a href="#">Login</a></button>
 
                     <p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
+                    <a href="#">Sign up </a> </p>
                     <p class="liw">Log in with</p>
 
                     <div class="icons">
@@ -60,9 +62,8 @@
                 </div>
                     </div>
                 </div>
-        </div>
-    </div>
-    <img src= "group-five-african-college-students-spending-time-together-campus-university-yard-black-afro-friends-studying-education-theme.jpg" alt="students spending time together"width="300" height="200">
+     
     
 </body>
 </html>
+</template>
