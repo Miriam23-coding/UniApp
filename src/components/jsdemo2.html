@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <h1>Javascript Exercise</h1>
+        <p id='students'></p>
+        <p id="grades"></p>
+        <p id="students_loop"></p>
+        <p id="grades_loop"></p>
+        <p id="message"></p>
+    </body>
+    <script>
+        const students= ['Will Smith',
+                           'Johny Depp',
+                        'Viola Davis',
+                    'Gal Gadot',
+                    'Anne Hat',
+                    'Jay Z'
+                ]
+
+                document.getElementById('students').innerHTML= students
+                const grades= [98,76,83,45,65,49]
+                document.getElementById('grades').innerHTML= grades
+                // for loop- iterating through array
+                //initialize, then condition and increment
+                //+= helps us to 
+                let student =""
+                for (let i= 0; i< students.length; i++){
+                    student +=students[i]+ "<br>";
+                }
+                document.getElementById('students_loop').innerHTML= student
+                let grade =""
+                for (let i= 0; i< grades.length; i++){
+                    grade +=grades[i]+ "<br>";
+                }
+                document.getElementById('grades_loop').innerHTML= grade
+
+                //conditions
+                let message;
+                if (students.length<2){
+                    message= "Add more students";
+
+                }
+                else {
+                 message=   "Minimum number of students reached" ;}
+                 document.getElementById("message").innerHTML= message
+        </script>
+</html>
